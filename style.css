@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.upper-part{
+   background-image: url(images/hero.png);
+   /* height: 100vh;
+   width: 100%;
+   justify-content: center;
+   align-items: center; */
+   height: 100vh;
+   width: 100%;
+   background-size: cover;
+
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem 4%;
+    /* border-bottom: 1px solid #242424;
+    margin-bottom: 2rem; */
+    animation: fade-in 3s;
+    color: aliceblue;
+}
+
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.link-item {
+    list-style: none;
+}
+
+.link {
+    color: #f5f1f1;
+    text-decoration: none;
+    cursor: pointer;
+    transition: .3s all ease;
+}
+
+.link:hover {
+    opacity: .8;
+}
+.text{
+    justify-content: center;
+    align-items: center;
+    margin-left: 40%;
+    color: #f5f1f1;
+}
+.login-btn{
+    /* background-color: white; */
+    border: 0cm;
+    cursor: pointer;
+    background: 0;
+    font-size: 20px;
+    color: aliceblue;
+
+}
+.member-btn{
+    width:200px;
+    height: 50px ;
+    background-color: rgb(23, 182, 255);
+    border-radius: 5px;
+    color: aliceblue;
+    border: none;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.quote-btn{
+    background-color: rgb(23, 182, 255);
+    font-weight: bolder;
+    border-radius: 30px;
+    height: 40px;
+    width: 150px;
+    border: none;
+    color: white;
+    margin-top: 5%;
+}
+.learn-btn{
+    border-color: rgb(237, 240, 247);
+    margin-left: 5%;
+    height: 40px;
+    width: 100px;
+    border-radius: 30px;
+    background: 0%;
+    font-weight: bolder;
+    color: #f5f1f1;
+}
+.paragraph{
+    margin-top: 5%;
+    
+}
+.heading{
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.boxes{
+    display: flex;
+    justify-content: space-around;
+    /* top: -15vh; */
+    height: 30vh;
+    border-color: black;
+    background-color: #f5f1f1;
+}
+.box1,.box2{
+    margin-top: -20vh;
+    background-color: #f5f1f1;
+    height: 20vh;
+    width: 20%;
+    padding: 3%;
+    
+}
+.box3{
+    margin-top: -20vh;
+    background-color: rgb(23, 182, 255);
+    height: 20vh;
+    width: 20%;
+    padding: 3%;
+}
+.icon1{
+    color: rgb(23, 182, 255);
+    font-size: xx-large;
+}
+.icon2{
+    color: aliceblue;
+    font-size: xx-large;
+}
+.boxes2{
+    display: flex;
+    justify-content: space-around;
+    height: 40vh;
+    padding: 5%;
+}
+.icon{
+    color: rgb(23, 182, 255);
+    font-size: xx-large;
+}
+.industry{
+    text-align: center ;
+    margin-top: -10vh;
+    justify-content: space-around;
+}
+.profiles{
+    display: flex;
+    justify-content: space-around;
+    padding: 5%;
+}
+.profile{
+    height: 30vh;
+}
+.star{
+    color: yellow;
+}
