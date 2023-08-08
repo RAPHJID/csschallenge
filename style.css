@@ -156,13 +156,14 @@ header {
     background-color: yellow;
 } */
 .symbols{
-    justify-content:space-evenly;
+    justify-content:space-around;
 
 
 }
 .symbols img{
     height: 5vh;
     width: 100px;
+    
     
 }
 .email{
